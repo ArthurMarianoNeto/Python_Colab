@@ -6,7 +6,7 @@
   # Non-Default = Aquele que você não define o valor no parâmetro
 
 '''
-def boas_vindas(nome, quantidade=6):
+def boas_vindas(nome, quantidade=6): #a ordem dos valores default e não defaults importam
   print(f'Olá, seja bem-vindo, {nome}!')
   print(f'Temos {quantidade} laptops em estoque')
   print('----------------------------------')
